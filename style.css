@@ -1,3 +1,30 @@
 h1{
 	color: firebrick;
 }
+
+.php-info-section {
+    margin: 20px 0;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.php-info-section h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.php-info-section a {
+    display: inline-block;
+    padding: 8px 15px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.php-info-section a:hover {
+    background-color: #45a049;
+}
