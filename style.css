@@ -1,3 +1,35 @@
 h1{
 	color:firebrick;
 }
+
+.applications {
+    margin: 2rem 0;
+    padding: 1rem;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+}
+
+.applications h2 {
+    color: #333;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.applications ul {
+    list-style: none;
+    padding: 0;
+}
+
+.applications li {
+    margin-bottom: 0.5rem;
+}
+
+.applications a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.applications a:hover {
+    text-decoration: underline;
+}
