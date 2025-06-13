@@ -1,30 +1,35 @@
 h1{
-	color: firebrick;
+	color:firebrick;
 }
 
-.php-info-section {
-    margin: 20px 0;
-    padding: 15px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    background-color: #f9f9f9;
+.applications {
+    margin: 2rem 0;
+    padding: 1rem;
+    background-color: #f8f9fa;
+    border-radius: 8px;
 }
 
-.php-info-section h2 {
+.applications h2 {
     color: #333;
-    margin-bottom: 10px;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
 }
 
-.php-info-section a {
-    display: inline-block;
-    padding: 8px 15px;
-    background-color: #4CAF50;
-    color: white;
+.applications ul {
+    list-style: none;
+    padding: 0;
+}
+
+.applications li {
+    margin-bottom: 0.5rem;
+}
+
+.applications a {
+    color: #007bff;
     text-decoration: none;
-    border-radius: 4px;
-    transition: background-color 0.3s;
+    font-weight: 500;
 }
 
-.php-info-section a:hover {
-    background-color: #45a049;
+.applications a:hover {
+    text-decoration: underline;
 }
