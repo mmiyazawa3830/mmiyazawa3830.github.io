@@ -5,6 +5,52 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>VSCodeで編集</title>
         <link rel="stylesheet" href="style.css">
+        // bootstrapのCDNを追加
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>    
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> 
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 20px;
+            }
+            h1 {
+                color: #333;
+            }
+            p {
+                color: #666;
+            }
+            .php-info-section {
+                margin-top: 20px;
+                padding: 10px;
+                border: 1px solid #ccc;
+                background-color: #f9f9f9;
+            }
+            .php-info-section h2 {
+                color: #007bff;
+            }
+            .php-info-section a {
+                color: #007bff;
+                text-decoration: none;
+            }
+            .php-info-section a:hover {
+                text-decoration: underline;
+            }
+        </style>
+        <script>
+            // ページが読み込まれたときに実行されるJavaScript
+            document.addEventListener("DOMContentLoaded", function() {
+                console.log("ページが読み込まれました。");
+            }); 
+        </script>
+        <script>
+            // ページが読み込まれたときにアラートを表示
+            window.onload = function() {
+                alert("ページが読み込まれました。");
+            };
+        </script>
+
     </head>
 <body>
     <h1>VSCodeで編集しています</h1>
